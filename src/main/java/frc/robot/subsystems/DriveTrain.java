@@ -28,8 +28,8 @@ public class DriveTrain extends SubsystemBase {
 
   public void setRightMotors(double Speed){
 
-    rightMotor1.set(Speed*Constants.ROBOT_SPEED);
-    rightMotor2.set(Speed*Constants.ROBOT_SPEED);
+    rightMotor1.set(-Speed*Constants.ROBOT_SPEED);
+    rightMotor2.set(-Speed*Constants.ROBOT_SPEED);
   }
 
   public void setLeftMotors(double Speed){

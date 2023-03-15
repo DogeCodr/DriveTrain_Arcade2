@@ -22,7 +22,7 @@ public static final int RIGHT_MOTOR_2 = 1;
 public static final int LEFT_MOTOR_1 = 2;
 public static final int LEFT_MOTOR_2 = 3;
 public static final double ROBOT_SPEED = 0.8;
-public static final int LEFT_STICK_Y = 5;
-public static final int RIGHT_STICK_Y = 1;
+public static final int LEFT_STICK_Y = 1;
+public static final int RIGHT_STICK_Y = 5;
 public static final int DRIVE_CONTROLLER = 0;
 }
